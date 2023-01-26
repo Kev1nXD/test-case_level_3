@@ -98,7 +98,7 @@ def parse(link: str) -> dict:
         "Floor": get_data_from_table("Поверх:"),
         "Superficiality": get_data_from_table("Поверховість:"),
         "Locality": get_location(),
-        "Squere": get_data_from_table("Загальна площа:"),
+        "Square": get_data_from_table("Загальна площа:"),
     }
 
 
